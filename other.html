@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Perrywinkle • Other</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cormorant+Garamond:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="stars" aria-hidden="true"></div>
+<header class="site-header">
+  <a class="brand" href="index.html">Perrywinkle</a>
+  <nav class="site-nav" aria-label="Primary">
+    <a href="index.html">Home</a>
+    <a href="wutm.html">WUTM</a>
+    <a href="dark-seed.html">Dark Seed</a>
+    <a href="visual-art.html">Visual Art</a>
+    <a href="other.html" aria-current="page">Other</a>
+  </nav>
+</header>
+
+<main class="content">
+  <h1>Other</h1>
+
+  <h2>The Wizard, the King, and the Fool</h2>
+  <img src="images/wkf-poster.png" alt="The Wizard, the King, and the Fool - Performance Art Poster" class="artwork">
+  <p>The Wizard, the King, and the Fool is a performance art show inspired by Carl Jung's theories on the archetypes and collective unconscious. You can read more about it <a href="https://www.wizardkingfool.com/" target="_blank" rel="noopener noreferrer">here</a>.</p>
+  
+
+  <h2>Alone Time</h2>
+  <p>Alone Time is a single put out in July 2022. It ponders the personal power and struggle that come with solitude. The visualizer was created using a style transfer.</p>
+  
+  <div class="video-container">
+    <iframe 
+      width="560" 
+      height="315" 
+      src="https://www.youtube.com/embed/3_RIMDkNHB4" 
+      title="Alone Time - Perrywinkle" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      allowfullscreen>
+    </iframe>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <p>© <span id="year"></span> Perrywinkle</p>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
+
+

@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Perrywinkle • WUTM</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cormorant+Garamond:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="stars" aria-hidden="true"></div>
+<header class="site-header">
+  <a class="brand" href="index.html">Perrywinkle</a>
+  <nav class="site-nav" aria-label="Primary">
+    <a href="index.html">Home</a>
+    <a href="wutm.html" aria-current="page">WUTM</a>
+    <a href="dark-seed.html">Dark Seed</a>
+    <a href="visual-art.html">Visual Art</a>
+    <a href="other.html">Other</a>
+  </nav>
+</header>
+
+<main class="content">
+  <h1>WUTM</h1>
+
+  <h2>Album</h2>
+  <p>Wake Up The Machine is the latest Perrywinkle album. It is about the self-reprogramming that occurs through the creative process. An awakening to neglected desires, overcoming of limiting beliefs, and a learning to navigate disappointments and uncertainty. It was created entirely by me, from the songwriting to the production to the cover art.</p>
+  <p><strong>Highlights:</strong> Wake Up The Machine, Inner Engineering.</p>
+  <!-- cover art -->
+  <img src="images/wutm-cover.png" alt="Wake Up The Machine Album Cover" class="album-cover">
+
+  <div class="music-links">
+    <a class="music-link spotify" href="https://open.spotify.com/album/55duQ2XF7tpKwtKWxvihtk?si=jdby9GvbQdmCy41grkMUYA" target="_blank">
+      <img src="images/Spotify_icon.svg" alt="Spotify" class="icon">
+      Spotify
+    </a>
+    <a class="music-link apple" href="https://music.apple.com/us/album/wake-up-the-machine/1833777240" target="_blank">
+      <img src="images/Apple_Music_icon.svg" alt="Apple Music" class="icon">
+      Apple Music
+    </a>
+    <a class="music-link youtube" href="https://www.youtube.com/watch?v=d7Kvd8i3isU&list=OLAK5uy_nHoukFLyBaPC5WuulWwqAnXlBKHIM8Qqk" target="_blank">
+      <img src="images/YouTube_full-color_icon_(2017).svg" alt="YouTube" class="icon">
+      YouTube
+    </a>
+  </div>
+
+  <h2>The Anomaly Music Video</h2>
+  <p>Music video I made for my song, "The Anomaly". The song itself is about making room for intuition and improvisation, learning to follow your instincts. It was filmed in South America as I was traveling with my friends.</p>
+  <p>Originally the idea was to try and get strangers to dance with me, to start an impromptu flashmob, but I ended up moving too erratically for people to know how to interact with me. However, I don't think I could have done it any other way.</p>
+  <p>The glitchy effects ended up being an afterthought.</p>
+  
+  <div class="video-container">
+    <iframe 
+      width="560" 
+      height="315" 
+      src="https://www.youtube.com/embed/9lmAJZkXgxU" 
+      title="The Anomaly - Perrywinkle" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      allowfullscreen>
+    </iframe>
+  </div>
+  
+
+  <h2>Serendipity Music Video</h2>
+  <p>Follows a young person on their quest for love as they navigate psychic rituals, mistaken signs from the divine, and the tricks fate plays on us. Filmed in Lithuania.</p>
+  
+  <div class="video-container">
+    <iframe 
+      width="560" 
+      height="315" 
+      src="https://www.youtube.com/embed/t7OO1iZ5tFU" 
+      title="Serendipity - Perrywinkle" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      allowfullscreen>
+    </iframe>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <p>© <span id="year"></span> Perrywinkle</p>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
+
+

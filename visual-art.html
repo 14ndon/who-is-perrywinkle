@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Perrywinkle • Visual Art</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cormorant+Garamond:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="stars" aria-hidden="true"></div>
+<header class="site-header">
+  <a class="brand" href="index.html">Perrywinkle</a>
+  <nav class="site-nav" aria-label="Primary">
+    <a href="index.html">Home</a>
+    <a href="wutm.html">WUTM</a>
+    <a href="dark-seed.html">Dark Seed</a>
+    <a href="visual-art.html" aria-current="page">Visual Art</a>
+    <a href="other.html">Other</a>
+  </nav>
+</header>
+
+<main class="content">
+  <h1>Visual Art</h1>
+
+  <h2>Stuck In The Middle</h2>
+  <img src="images/stuck-in-the-middle.JPG" alt="Stuck In The Middle - Pen on isometric graph paper" class="artwork">
+  <p>Pen on isometric graph paper, 2021. Insired by the struggle of finding balance during my first year of college. Published in HighGrade Journal of the Arts.</p>
+
+  <h2>The Most Beautiful Thoughts are Always Beside The Darkest</h2>
+  
+  <div class="artwork-pair">
+    <img src="images/moth_project/light_final.jpg" alt="The Most Beautiful Thoughts - Light Version" class="artwork-half">
+    <img src="images/moth_project/dark_final.jpg" alt="The Most Beautiful Thoughts - Dark Version" class="artwork-half">
+  </div>
+  
+  <p>Acrylic on canvas board, with glow in the dark paint, 2020. Published in HighGrade Journal of the Arts.</p>
+</main>
+
+<footer class="site-footer">
+  <p>© <span id="year"></span> Perrywinkle</p>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
+
+

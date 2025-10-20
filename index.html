@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Perrywinkle • Home</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cormorant+Garamond:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="stars" aria-hidden="true"></div>
+<header class="site-header">
+  <a class="brand" href="index.html">Perrywinkle</a>
+  <nav class="site-nav" aria-label="Primary">
+    <a href="index.html" aria-current="page">Home</a>
+    <a href="wutm.html">WUTM</a>
+    <a href="dark-seed.html">Dark Seed</a>
+    <a href="visual-art.html">Visual Art</a>
+    <a href="other.html">Other</a>
+  </nav>
+</header>
+
+<main class="content">
+  <h1>Home</h1>
+  
+  <div class="intro-section">
+    <div class="intro-text">
+      <p>Perrywinkle is a multimedia visionary art project I started back in 2020. The spirit of Perrywinkle is a fairy-tale like blend of the whimsical, the mystical, and the alien. It seeks to push boundaries through personal revelation and experimentation with new technologies.</p>
+      <p>On this website you will find greater context and clues for experiencing Perrywinkle projects, which hopefully still leave room for personal interpretation.</p>
+      <p>You can tune into Perrywinkle across various platforms with the linktree below:</p>
+      <p>
+          <a class="button" href="https://linktr.ee/perrywinkle" aria-label="Linktree">Linktree</a>
+      </p>
+    </div>
+    
+    <div class="portrait-container">
+      <img src="images/me.png" alt="Perrywinkle Artist" class="portrait">
+    </div>
+  </div>
+
+  <section class="grid">
+    <a class="card" href="wutm.html">
+      <img src="images/wutm-cover.png" alt="WUTM Album Cover" class="card-image">
+      <h2>WUTM Album</h2>
+    </a>
+    <a class="card" href="visual-art.html">
+      <img src="images/stuck-in-the-middle.JPG" alt="Stuck In The Middle" class="card-image">
+      <h2>Visual Art</h2>
+    </a>
+    <a class="card" href="other.html">
+      <img src="images/wkf-poster.png" alt="The Wizard, the King, and the Fool" class="card-image">
+      <h2>Other</h2>
+    </a>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p>© <span id="year"></span> Perrywinkle</p>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
+
+

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Perrywinkle • Dark Seed</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cormorant+Garamond:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="stars" aria-hidden="true"></div>
+<header class="site-header">
+  <a class="brand" href="index.html">Perrywinkle</a>
+  <nav class="site-nav" aria-label="Primary">
+    <a href="index.html">Home</a>
+    <a href="wutm.html">WUTM</a>
+    <a href="dark-seed.html" aria-current="page">Dark Seed</a>
+    <a href="visual-art.html">Visual Art</a>
+    <a href="other.html">Other</a>
+  </nav>
+</header>
+
+<main class="content">
+  <h1>Dark Seed</h1>
+  <p>Dark Seed is the first Perrywinkle album, walking the line between madness and spiritual emergence. It parodies the New Age idea of "star seeds"–individuals who believe their souls originated from other planets, who feel they are on Earth to help humanity and the planet evolve spiritually. Inspired by Carl Jung's ideas of the shadow, it posits that in order to exhibit "star seed"-like qualities, we must first acknowledge and integrate the madness within ourselves.</p>
+  
+  <img src="images/dark-seed-cover.png" alt="Dark Seed Album Cover" class="album-cover">
+
+  <div class="music-links">
+    <a class="music-link spotify" href="https://open.spotify.com/album/3DZ072MfuVRr1cli2wRUz5?si=VM_UgV_9RJqCAVnQeGgOBA" target="_blank">
+      <img src="images/Spotify_icon.svg" alt="Spotify" class="icon">
+      Spotify
+    </a>
+    <a class="music-link apple" href="https://music.apple.com/us/album/dark-seed/1730399096" target="_blank">
+      <img src="images/Apple_Music_icon.svg" alt="Apple Music" class="icon">
+      Apple Music
+    </a>
+    <a class="music-link youtube" href="https://youtube.com/playlist?list=OLAK5uy_n4i4nCktpxxIGHyGLdkDvma-K2mpQYoJ4&si=4CtlHh9aN9cbYDnA" target="_blank">
+      <img src="images/YouTube_full-color_icon_(2017).svg" alt="YouTube" class="icon">
+      YouTube
+    </a>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <p>© <span id="year"></span> Perrywinkle</p>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
+
+
