@@ -24,7 +24,7 @@ html, body {
   background-repeat: repeat;
   background-position: 0 0;
   background-attachment: fixed;
-  background-blend-mode: multiply;
+  /* background-blend-mode: multiply; */
   color: var(--text);
   font-family: "Cormorant Garamond", Georgia, serif;
   line-height: 1.6;
@@ -132,6 +132,13 @@ h2[id] {
   font-size: 22px;
   letter-spacing: 1px;
   text-shadow: 0 0 8px rgba(179,139,250,0.6);
+}
+
+.brand-logo {
+  height: 28px;
+  width: auto;
+  vertical-align: middle;
+  margin-right: 8px;
 }
 
 .site-nav a {
